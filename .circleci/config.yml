@@ -45,7 +45,7 @@ jobs:
           at: ./
       - run:
           name: Upload to website
-          command: - rsync -va --delete ./_site root@thehillshandyman.com:/var/html/thehillshandyman
+          command: rsync -va --delete ./_site root@thehillshandyman.com:/var/html/thehillshandyman
 workflows:
   version: 2
   test-deploy:
