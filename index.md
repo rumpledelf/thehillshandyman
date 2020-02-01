@@ -10,9 +10,6 @@ layout: home
 * Metal fabrication
 * Welding
 * Custom Carpentry
-* test change
-* something
-* something
 
 # Areas serviced
 
