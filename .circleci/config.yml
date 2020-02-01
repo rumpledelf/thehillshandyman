@@ -36,6 +36,9 @@ jobs:
       - attach_workspace:
           at: ./
       - run:
+          name: Stop rsync install breaking
+          command: sudo apt-get update 
+      - run:
           name: Install rsync
           command: sudo apt install -y rsync
       - run:
