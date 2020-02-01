@@ -43,7 +43,7 @@ jobs:
           command: sudo apt install -y rsync
       - run:
           name: Upload to website
-          command: rsync -va --delete ./_site root@thehillshandyman.com:/var/html/thehillshandyman
+          command: rsync -va --delete -e "ssh -o StrictHostKeyChecking=no" ./_site root@thehillshandyman.com:/var/html/thehillshandyman
 workflows:
   version: 2
   test-deploy:
