@@ -7,9 +7,9 @@ layout: home
 
 # Services
 
-* Metal fabrication
-* Welding
-* Custom Carpentry
+* Land Management
+* Home Renovation
+* Metal Fabrication
 
 # Areas serviced
 
