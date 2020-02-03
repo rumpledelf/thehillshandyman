@@ -336,6 +336,7 @@
       margin-bottom: $spacing-unit;
       text-align: left;
       float: left;
+      list-style-type: none;
       @include media-query($on-laptop) {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
         width:         calc(50% - (#{$spacing-unit} / 2));
