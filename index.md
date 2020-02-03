@@ -9,9 +9,9 @@ Darren has been working as a professional  handyman for the past 20 years. He pr
 
 ## Services
 
-* Metal fabrication
-* Welding
-* Custom Carpentry
+* Land Management
+* Home Renovation
+* Metal Fabrication
 
 ## Areas serviced
 
