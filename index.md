@@ -5,12 +5,14 @@
 layout: home
 ---
 
-# Services
+Darren has been working as a professional  handyman for the past 20 years. He prides himself on doing quality work. Please get in touch to discuss your requirements.
+
+## Services
 
 * Metal fabrication
 * Welding
 * Custom Carpentry
 
-# Areas serviced
+## Areas serviced
 
-Servicing the area between Wagga Wagga and Albury, in the Riverina area of southern NSW.
+Servicing the area between Wagga Wagga and Albury, in the Riverina area of southern NSW. A travel surcharge may apply outside this area.

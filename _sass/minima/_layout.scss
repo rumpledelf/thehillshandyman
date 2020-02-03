@@ -118,6 +118,26 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  li {
+    float: left;
+    margin-right: $spacing-unit;
+    padding-right: $spacing-unit;
+    border-right: 1px solid $grey-color;
+    a {
+      color: $grey-color-dark;
+    }
+    @include media-query($on-laptop) {
+      float: none;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+    &:last-child {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
 }
 
 .footer-col-wrapper {
@@ -176,6 +196,12 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  h2 {
+    @include relative-font-size(1.75);
+    text-transform: uppercase;
+    margin: $spacing-unit*1.5 auto $spacing-unit auto;
+    clear: both;
+  }
 }
 
 .page-heading {
@@ -303,6 +329,7 @@
     clear: both;
   }
   ul {
+    overflow: hidden;
     li {
       width: -webkit-calc(33% - (#{$spacing-unit} / 2));
       width:         calc(33% - (#{$spacing-unit} / 2));
